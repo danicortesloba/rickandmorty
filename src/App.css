@@ -1,0 +1,42 @@
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.home {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  background-color: lightblue;
+  width: 50px;
+  heigth: 20px;
+  color:brown;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin: 50px;
+  height: 30px;
+  width: 600px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 400px;
+  background-color: lightseagreen;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 40px;
+}
